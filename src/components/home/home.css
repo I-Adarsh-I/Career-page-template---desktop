@@ -1,0 +1,40 @@
+.main-hero-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hero-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0;
+    width: 75%;
+}
+.hero-head{
+    font-family: var(--font-roboto);
+    padding: 0 0 15px 0;
+    font-size: var(--font-size-21xl);
+}
+.hero-description{
+    text-align: center;
+    font-family: var(--font-outfit);
+    padding: 0 0 10px 0;
+    line-height: 1.5rem;
+
+}
+.btn-outline-secondary{
+    padding: 10px 24px;
+    border-radius: 24px;
+    color: var(--color-black);
+    border-color: var(--color-black);
+    letter-spacing: 0.1px;
+    font-size: var(--font-size-sm);
+
+}
+.btn-outline-secondary:hover {
+    color: var(--color-black);
+    background-color: #fbfbfb;
+    border-color: #2D2D2D;
+}

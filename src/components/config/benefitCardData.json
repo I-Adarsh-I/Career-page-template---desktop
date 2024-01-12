@@ -1,0 +1,24 @@
+[
+    {
+        "title": "Benefits",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error libero dicta nemo. Ratione optio ad, obcaecati eaque voluptatibus possimus commodi.",
+        "imgUrl": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "cardDetail": [
+            {
+                "icon": "/medical.png",
+                "Btitle": "Make the most of life",
+                "Bdescription": "At Microsoft, you’ll take risks, push boundaries, and grow more than you thought possible. And you won’t be alone on that journey."
+            },
+            {
+                "icon": "/gender-equality.png",
+                "Btitle": "Our commitment to pay equity",
+                "Bdescription": "We are committed to the principle of pay equity – paying our employees equitably for substantially similar work."
+            },
+            {
+                "icon": "/flexible.png",
+                "Btitle": "Enjoy flexibility to care for you and your family",
+                "Bdescription": "We give you time away to focus on the people who matter most with leave for new parents and family caregiver leave, adoption assistance, parenting classes and many more"
+            }
+        ]
+    }
+]
