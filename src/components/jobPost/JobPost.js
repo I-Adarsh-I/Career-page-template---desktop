@@ -6,7 +6,7 @@ function JobPost() {
   return (
     <div>
       <div className="container parent-con-job">
-        <div className="job-post-main-con">
+        <div className="job-post-main-con" id="job-sec">
           <div className="job-post-head">
             <h1 className="job-post-head-title">Current Openings</h1>
             <p className="job-post-head-para">

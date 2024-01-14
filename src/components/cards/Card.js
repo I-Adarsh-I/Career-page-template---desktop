@@ -2,7 +2,6 @@ import React from "react";
 import "./cards.css";
 import careerJson from "../config/careerCard.json";
 import benefitCardData from "../config/benefitCardData.json";
-import life from '../Assets/medical.png' 
 
 
 function Card() {
@@ -20,14 +19,14 @@ function Card() {
                   </h1>
                   <p className="main-card-description-l color-gray">{data.description}</p>
                   <p className="main-card-description-l color-gray">{data.description2}</p>
-                  <button className="btn btn-outline-secondary card-btn">
+                  <button className="btn btn-outline-secondary card-btn blue-outline">
                     Go to jobs
                   </button>
                 </div>
                 <div className="r-con">
                   <div className="rt-con">
                     <div style={{ width: "fit-content" }}>
-                      <img src={data.imgUrl} alt="Career" width={"100%"} />
+                      <img src={data.imgUrl} alt="Career" width={"100%"} className="bg-rounded" />
                     </div>
                   </div>
                   <div className="rb-con"></div>
@@ -51,7 +50,7 @@ function BenefitCard() {
                 <div className="l-con">
                   <div className="rt-con">
                     <div style={{ width: "fit-content" }}>
-                      <img src={data.imgUrl} alt="Career" width={"100%"} />
+                      <img src={data.imgUrl} alt="Career" width={"100%"} className="bg-rounded"/>
                     </div>
                   </div>
                 </div>

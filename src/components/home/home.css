@@ -36,5 +36,13 @@
 .btn-outline-secondary:hover {
     color: var(--color-black);
     background-color: #fbfbfb;
-    border-color: #2D2D2D;
+    /* border-color: #2D2D2D; */
+}
+.btn-outline-secondary:active {
+    color: var(--color-black);
+    background-color: #fff;
+    border-color: var(--color-cornflowerblue);
+}
+.btn-outline-secondary:focus {
+    box-shadow: none;
 }

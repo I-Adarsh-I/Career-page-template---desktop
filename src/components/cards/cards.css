@@ -48,14 +48,17 @@
     padding: 10px 24px;
     border-radius: 24px;
     color: var(--color-black);
-    border-color: var(--color-black);
+    /* border-color: var(--color-black); */
     letter-spacing: 0.1px;
     font-size: var(--font-size-sm);
+}
+.blue-outline{
+    border-color: var(--color-cornflowerblue);
 }
 .btn-outline-secondary:hover {
     color: var(--color-black);
     background-color: #fbfbfb;
-    border-color: #2D2D2D;
+    border-color: var(--color-cornflowerblue);
 }
 .card-title-span{
     font-size: var(--font-size-21xl);
@@ -97,4 +100,7 @@
 }
 .color-gray{
     color: var(--color-gray-dark)
+}
+.bg-rounded{
+    border-radius: 4px;
 }

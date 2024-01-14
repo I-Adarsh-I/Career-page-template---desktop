@@ -64,11 +64,18 @@
     width: fit-content;
     height: 40px;
   }
+  .link-button:hover{
+    background-color: rgba(6, 13, 63, 0.04);
+  }
   .link-btn-instance{
     text-decoration: none;
     color: var(--color-black);
     font-size: var(--font-size-sm);
     font-weight: 500;
+    padding: 10px 24px;
+  }
+  .link-btn-instance:hover{
+    color: var(--color-black);
   }
   .frame{
     display: flex;
@@ -77,7 +84,7 @@
     flex-shrink: 0;
     flex-direction: row;
     justify-content: flex-start;
-    gap: var(--gap-21xl);
+    gap: var(--gap-9xs);
   }
   .divmuistack-root1,
   .header {
